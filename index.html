@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>repl.it</title>
+        <style>
+            .nav{
+                height: 70px;
+                border-bottom: 1px solid black;
+                display: flex;
+                align-items: center;
+            }
+            .nav_right_items{
+                display: flex;
+                margin-left: auto;
+            }
+            .nav_item{
+                margin-right: 10px;
+            }
+            .title{
+                text-align: center;
+                font-size: 3.5rem;
+                font-weight: bold;
+            }
+            .subtitle{
+                text-align: center;
+                font-size: 1.25rem;
+                font-weight: 300;
+            }
+            .main{
+                width: 1000px;
+                margin: 0 auto;
+                margin-top: 60px;
+            }
+            .prices{
+                display: flex;
+            }
+            .price_item{
+                width: 300px;
+                height: 350px;
+                border: 1px solid black;
+                margin: 20px;
+                border-radius: 4px;
+                text-align: center;
+            }
+            .price_item_title{
+                border-radius: 4px;
+                font-size: 1.5rem;
+                background-color: rgba(248, 248, 248, 0.952);
+                text-align: center;
+                height: 53px;
+                line-height: 53px;
+                border-bottom: 1px solid black;
+            }
+            .price_item_price{
+                font-size: 2.5rem;
+                font-weight: bold;
+                padding: 20px;
+            }
+            .price_item_button{
+                padding: .5rem 1rem;
+                font-size: 1.25rem;
+                line-height: 1.5;
+                border-radius: .3rem;
+                color: #007bff;
+                background-color: transparent;
+                background-image: none;
+                border-color: #007bff;
+                margin-top: 20px;
+            }
+            .price_item_button_active{
+                background-color: #007bff;
+                color:rgba(248, 248, 248, 0.952);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <div class="nav_right_items">
+                <div class="nav_item">Feature</div>
+                <div class="nav_item">Enterprise</div>
+                <div class="nav_item">Support</div>
+                <div class="nav_item">Pricing</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="title">
+                Pricing
+            </div>
+            <div class="subtitle">
+                Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customiaztion.
+            </div>
+            <div class="prices">
+                <div class="price_item">
+                    <div class="price_item_title">
+                        Free
+                    </div>
+                    <div class="price_item_price">
+                        $0 / mo
+                    </div>
+                    <div class="price_item_details">
+                        10 users included
+                    </div>
+                    <div class="price_item_details">
+                        2 GB of storage
+                    </div>
+                    <div class="price_item_details">
+                        Email support
+                    </div>
+                    <div class="price_item_details">
+                        Help center access
+                    </div>
+                    <button class="price_item_button">
+                        Sign up for Free
+                    </button>
+                </div>
+                <div class="price_item">
+                    <div class="price_item_title">
+                        Pro
+                    </div>
+                    <div class="price_item_price">
+                        $15 / mo
+                    </div>
+                    <div class="price_item_details">
+                        20 users included
+                    </div>
+                    <div class="price_item_details">
+                        10 GB of storage
+                    </div>
+                    <div class="price_item_details">
+                        Priority email support
+                    </div>
+                    <div class="price_item_details">
+                        Help center access
+                    </div>
+                    <button class="price_item_button price_item_button_active">
+                        Get started
+                    </button>
+                </div>
+                <div class="price_item">
+                    <div class="price_item_title">
+                        Enterprise
+                    </div>
+                    <div class="price_item_price">
+                        $29 / mo
+                    </div>
+                    <div class="price_item_details">
+                        30 users included
+                    </div>
+                    <div class="price_item_details">
+                        15 GB of storage
+                    </div>
+                    <div class="price_item_details">
+                        Phone and email support
+                    </div>
+                    <div class="price_item_details">
+                        Help center access
+                    </div>
+                    <button class="price_item_button price_item_button_active">
+                        Contact us
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
